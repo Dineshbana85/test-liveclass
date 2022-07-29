@@ -1,0 +1,293 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  font-family: "Poppins", sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #3944F7;
+  height: 335px;
+}
+
+.logo{
+position: absolute;
+top: 4%;
+left: 2%;
+}
+.nav-item{
+  color: #FFFF;
+  position: relative;
+  top: 6%;
+  left: 147%;
+  font-size: 18px;
+  padding: 0 9px;
+}
+.nav-item:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.nav-item-active{
+  background-color: #fff;
+  position: relative;
+  left: 147%;
+  top: 6%;
+  padding: 1px 4px;
+}
+.nav-item-active:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header-image{
+  height: 106%;
+  margin-top: 26%;
+  margin-left: 0%;
+
+}
+.header-text{
+  position: absolute;
+  top: 23%;
+  left: 3%;
+  color: #FFFFFF;
+}
+
+.company-items{
+  font-weight: bold;
+
+  text-decoration: none;
+  padding: 0 3px;
+  color: #000;
+  font-size: 18px;
+
+}
+.api-heading{
+  margin: 42px 33px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.card-head-active{
+  color: #3944F7;
+}
+.card-active{
+  padding: 11px 12px;
+    border-radius: 22px;
+    width: 18%;
+    border: 2px solid #FFFFFF;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+.card:hover{
+  cursor: pointer;
+  padding: 11px 12px;
+  border-radius: 22px;
+  width: 15%;
+  border: 2px solid #FFFFFF;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+
+.blog-heading{
+  margin: 0 35px;
+
+}
+.blog-cards{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.blog-card{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgba(98, 97, 97, 0.3) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+/* .blog-image1{
+  position: absolute;
+    left: 2%;
+    height: 61%;
+    top: 191%;
+} */
+
+
+.blog-content1{
+  position: absolute;
+  left: 34%;
+}
+
+.blog-card-bottom-image1{
+  /* position: absolute;
+  left: 461px;
+  height: 8%;
+  top: 194%; */
+  margin: 5px 0px;
+      }
+   .blog-author1{
+    /* position: absolute;
+    left: 15%;
+    top: 195%; */
+    width: 60%;
+    margin: 21px -165px;
+   }   
+
+
+   .blog-content2{
+    position: absolute;
+    left:82%;
+  }
+  
+  .blog-card-bottom-image2{
+    margin: 5px -59px;
+
+        }
+     .blog-author2{
+      /* position: absolute;
+      left: 47%;
+      top: 195%;
+      width: 48%; */
+
+      width: 60%;
+      margin: 21px -196px;
+     }
+     .faq-section{
+      display: flex;
+      justify-content: space-between;
+      box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+      margin: 54px 0px;
+      height: 233px;
+      padding: 0px 20px;
+      font-size: 14px;
+      background-color: #dddee7;
+  
+     }
+
+     .faq-image{
+      height: 100%;
+      margin: 0 120px;
+
+      /* position: absolute;
+      right: 21%;
+      top: 154%; */
+     }
+     .btn{
+      padding: 3px 12px;
+    color: white;
+    background-color: #3944F7;
+    border: none;
+    font-size: 17px;
+     }
+     .btn:hover{
+      cursor: pointer;
+      font-weight: bold;
+     }
+
+     .download-section{
+      display: flex;
+      justify-content: space-between;
+      margin: -43px 0px;
+
+     }
+     .download-content h1{
+      font-size:40px;
+     } 
+     .download-content h1 span{
+      font-size: 30px;
+      padding: 0 7px;
+     }
+     .download-email{
+      margin: 34px 71px;
+     }
+     .download-email input{
+      padding: 10px 157px;
+    border-radius: 26px;
+    background-color: #e3e3eb;
+     }
+     .download-email button{
+      padding: 7px 25px;
+    border-radius: 28px;
+    font-size: 18px;
+    background-color: #3944F7;
+    color: #FFF;
+    position: absolute;
+    right: 5%;
+     }
+     .download-email button:hover{
+      cursor: pointer;
+     }
+
+     .footer-section{
+      display: flex;
+      justify-content: space-between;
+      background-color: #3944F7;
+      height: 159px;
+      position: absolute;
+      width: 100%;
+      top: 229%;
+
+    }
+    .footer-left{
+      display: flex;
+      flex-direction: column;
+        }
+        .footer-logo{
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        }
+        .list{
+          display:flex;
+          justify-content: space-between;
+
+        }
+        .list-items{
+    padding: 4px 6px;
+    margin: 55px 4px;
+    list-style-type: none;
+    color: #FFF;
+        }
+
+        .list-items:hover{
+          cursor: pointer;
+        }
+
+    .footer-right{
+      display: flex;
+      justify-content: space-between;
+    }    
+
+    .footer-right2{
+      position: absolute;
+      left: 85%;
+      margin: 0px 13px;
+    }
+    .footer-logos{
+      padding: 12px 9px;
+      margin: 17px 0px;
+    }
+
+    .footer-logos:hover{
+    cursor: pointer;
+
+   }
+
+.logos-list{
+  display: flex;
+  margin: 77px 34px;
+
+}
+
+    .list-items2{
+    padding: 0 13px;
+      list-style-type: none;
+      color: #FFF;
+    }
+    
